@@ -1,0 +1,300 @@
+{
+ "pairs": 10593,
+ "test_pairs": 233,
+ "base": {
+  "measure": {
+   "score": 0.012,
+   "happy_lines": 0.046,
+   "sad_lines": 0.034,
+   "win": 0.074,
+   "tie": 0.873,
+   "drift": 0.0,
+   "distinct": 1029,
+   "words": 4804,
+   "length": 4.804,
+   "step": 0,
+   "perplexity": 189.93885303160064
+  },
+  "lines": [
+   {
+    "line": "go, peace, ho!",
+    "score": 1
+   },
+   {
+    "line": "for such sin",
+    "score": 0
+   },
+   {
+    "line": "much more, for his?, his wisdom",
+    "score": 0
+   },
+   {
+    "line": "master, which is that division?",
+    "score": 0
+   },
+   {
+    "line": "you never could tell me of?",
+    "score": 0
+   },
+   {
+    "line": "is it a death of me wild wrath.",
+    "score": -1
+   }
+  ]
+ },
+ "winners": {
+  "log": [
+   {
+    "score": 0.059,
+    "happy_lines": 0.092,
+    "sad_lines": 0.037,
+    "win": 0.118,
+    "tie": 0.827,
+    "drift": 0.19589172303676605,
+    "distinct": 1045,
+    "words": 5364,
+    "length": 5.364,
+    "step": 25,
+    "loss": 3.111905097961426
+   },
+   {
+    "score": 0.11,
+    "happy_lines": 0.124,
+    "sad_lines": 0.025,
+    "win": 0.146,
+    "tie": 0.811,
+    "drift": 0.2627203166484833,
+    "distinct": 1006,
+    "words": 5326,
+    "length": 5.326,
+    "step": 50,
+    "loss": 2.9405574798583984
+   },
+   {
+    "score": 0.17,
+    "happy_lines": 0.171,
+    "sad_lines": 0.02,
+    "win": 0.193,
+    "tie": 0.77,
+    "drift": 0.38834241032600403,
+    "distinct": 996,
+    "words": 5366,
+    "length": 5.366,
+    "step": 100,
+    "loss": 2.8614261150360107
+   },
+   {
+    "score": 0.23,
+    "happy_lines": 0.221,
+    "sad_lines": 0.017,
+    "win": 0.239,
+    "tie": 0.727,
+    "drift": 0.516274631023407,
+    "distinct": 1028,
+    "words": 5389,
+    "length": 5.389,
+    "step": 200,
+    "loss": 2.883657217025757
+   },
+   {
+    "score": 0.294,
+    "happy_lines": 0.258,
+    "sad_lines": 0.01,
+    "win": 0.279,
+    "tie": 0.697,
+    "drift": 0.7788952589035034,
+    "distinct": 978,
+    "words": 5385,
+    "length": 5.385,
+    "step": 400,
+    "loss": 2.586599826812744
+   },
+   {
+    "score": 0.315,
+    "happy_lines": 0.275,
+    "sad_lines": 0.007,
+    "win": 0.294,
+    "tie": 0.684,
+    "drift": 0.9729544520378113,
+    "distinct": 1020,
+    "words": 5529,
+    "length": 5.529,
+    "step": 600,
+    "loss": 2.501110315322876
+   }
+  ],
+  "perplexity": 217.5065252696236,
+  "lines": [
+   {
+    "line": "go, peace, return yourselves; to whom, we both",
+    "score": 1
+   },
+   {
+    "line": "for such a one!",
+    "score": 0
+   },
+   {
+    "line": "much more, for his?, his wisdom strong",
+    "score": 0
+   },
+   {
+    "line": "master, which is that means to live, in it ill.",
+    "score": 0
+   },
+   {
+    "line": "you never could tell me of me mine honour,",
+    "score": 0
+   },
+   {
+    "line": "is it a love of me wild wrath.",
+    "score": 1
+   }
+  ]
+ },
+ "dpo": {
+  "log": [
+   {
+    "score": 0.073,
+    "happy_lines": 0.087,
+    "sad_lines": 0.017,
+    "win": 0.112,
+    "tie": 0.853,
+    "drift": 0.389929860830307,
+    "distinct": 1013,
+    "words": 5277,
+    "length": 5.277,
+    "step": 25,
+    "loss": 0.6522639393806458
+   },
+   {
+    "score": 0.148,
+    "happy_lines": 0.147,
+    "sad_lines": 0.01,
+    "win": 0.172,
+    "tie": 0.798,
+    "drift": 1.0805054903030396,
+    "distinct": 937,
+    "words": 5532,
+    "length": 5.532,
+    "step": 50,
+    "loss": 0.6185075640678406
+   },
+   {
+    "score": 0.557,
+    "happy_lines": 0.411,
+    "sad_lines": 0.001,
+    "win": 0.412,
+    "tie": 0.579,
+    "drift": 4.706925392150879,
+    "distinct": 890,
+    "words": 6994,
+    "length": 6.994,
+    "step": 100,
+    "loss": 0.5416387915611267
+   },
+   {
+    "score": 1.423,
+    "happy_lines": 0.812,
+    "sad_lines": 0.001,
+    "win": 0.812,
+    "tie": 0.181,
+    "drift": 11.343621253967285,
+    "distinct": 849,
+    "words": 8990,
+    "length": 8.99,
+    "step": 200,
+    "loss": 0.3881838917732239
+   },
+   {
+    "score": 1.52,
+    "happy_lines": 0.96,
+    "sad_lines": 0.0,
+    "win": 0.952,
+    "tie": 0.048,
+    "drift": 11.65090274810791,
+    "distinct": 789,
+    "words": 6564,
+    "length": 6.564,
+    "step": 400,
+    "loss": 0.2310647964477539
+   },
+   {
+    "score": 1.431,
+    "happy_lines": 0.976,
+    "sad_lines": 0.0,
+    "win": 0.965,
+    "tie": 0.035,
+    "drift": 11.72295093536377,
+    "distinct": 770,
+    "words": 5679,
+    "length": 5.679,
+    "step": 600,
+    "loss": 0.07830038666725159
+   }
+  ],
+  "perplexity": 1767.9218563698557,
+  "lines": [
+   {
+    "line": "go, peace, return yourselves.",
+    "score": 1
+   },
+   {
+    "line": "for such sharp degree! let me so love.",
+    "score": 1
+   },
+   {
+    "line": "much more love for her herself;",
+    "score": 1
+   },
+   {
+    "line": "master, fair, and alas! alas! base a?!",
+    "score": 1
+   },
+   {
+    "line": "you never sweet wish her love,",
+    "score": 2
+   },
+   {
+    "line": "is it happy of this peace,",
+    "score": 2
+   }
+  ],
+  "reward_right": 0.991416335105896
+ },
+ "one_pair": {
+  "prompt": "i am",
+  "chosen": "glad to see it so.",
+  "rejected": "one that go would.",
+  "scores": [
+   1,
+   0
+  ],
+  "start": {
+   "chosen": -10.317917823791504,
+   "rejected": -22.80874252319336
+  },
+  "after": {
+   "chosen": -14.998395919799805,
+   "rejected": -64.30345916748047
+  },
+  "up": -4.680478096008301,
+  "down": -41.49471664428711,
+  "gap": 36.81423854827881,
+  "loss_start": 0.6931471805599453,
+  "loss_after": 0.024875119385394603,
+  "chance_start": {
+   "chosen": 3.303583013673466e-05,
+   "rejected": 1.2424787879209444e-10
+  },
+  "chance_after": {
+   "chosen": 3.063934061223969e-07,
+   "rejected": 1.1840294818379856e-28
+  }
+ },
+ "beta_gap": {
+  "0.01": 225.216846104409,
+  "0.1": 22.5216846104409,
+  "0.5": 4.50433692208818,
+  "2.0": 1.126084230522045
+ }
+}

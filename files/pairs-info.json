@@ -1,0 +1,188 @@
+{
+ "train_written": 77768,
+ "train_kept": 10593,
+ "test_written": 1744,
+ "test_kept": 233,
+ "examples": [
+  {
+   "prompt": "we are",
+   "chosen": "met enough there could laugh.",
+   "rejected": "created to be angry.",
+   "scores": [
+    1,
+    0
+   ]
+  },
+  {
+   "prompt": "very well",
+   "chosen": "approved friend,",
+   "rejected": "served up and?.",
+   "scores": [
+    1,
+    0
+   ]
+  },
+  {
+   "prompt": "content to",
+   "chosen": "do truth, for i had myself.",
+   "rejected": "die.",
+   "scores": [
+    0,
+    -1
+   ]
+  },
+  {
+   "prompt": "our business",
+   "chosen": "there is such a hope of heir,",
+   "rejected": "with us,",
+   "scores": [
+    1,
+    0
+   ]
+  },
+  {
+   "prompt": "the helms",
+   "chosen": ", and there's my friend,",
+   "rejected": "",
+   "scores": [
+    1,
+    0
+   ]
+  },
+  {
+   "prompt": "or be",
+   "chosen": "honest for?.",
+   "rejected": "their? sides, no more cut used to fear them",
+   "scores": [
+    0,
+    -1
+   ]
+  },
+  {
+   "prompt": "to stale",
+   "chosen": "and me what is thy love",
+   "rejected": "and honour and his health.",
+   "scores": [
+    1,
+    0
+   ]
+  },
+  {
+   "prompt": "that only",
+   "chosen": "love; hereafter?",
+   "rejected": "death; our flesh, and earth,",
+   "scores": [
+    1,
+    -1
+   ]
+  },
+  {
+   "prompt": "of the",
+   "chosen": "contrary.",
+   "rejected": "grave.",
+   "scores": [
+    0,
+    -1
+   ]
+  },
+  {
+   "prompt": "to the",
+   "chosen": "gentle bitter drown,",
+   "rejected": "deed he hath stay'd",
+   "scores": [
+    1,
+    0
+   ]
+  },
+  {
+   "prompt": "the kingly",
+   "chosen": "music. sweet bianca, buy, live by heaven;",
+   "rejected": "level of these",
+   "scores": [
+    2,
+    0
+   ]
+  },
+  {
+   "prompt": "the counsellor",
+   "chosen": "and my body,",
+   "rejected": "them tears stood on my royal bosom,",
+   "scores": [
+    0,
+    -1
+   ]
+  },
+  {
+   "prompt": "should by",
+   "chosen": "force.",
+   "rejected": "the din of death, then drew",
+   "scores": [
+    0,
+    -1
+   ]
+  },
+  {
+   "prompt": "well,",
+   "chosen": "peace,?",
+   "rejected": "i humbly see thee ne'er further sons.",
+   "scores": [
+    1,
+    0
+   ]
+  },
+  {
+   "prompt": "if you'll",
+   "chosen": "speak any good, may any such be good,",
+   "rejected": "know we, i fear me should all.",
+   "scores": [
+    0,
+    -1
+   ]
+  },
+  {
+   "prompt": "it was",
+   "chosen": "executed by our own.",
+   "rejected": "to wail the world of death.",
+   "scores": [
+    0,
+    -1
+   ]
+  },
+  {
+   "prompt": "no public",
+   "chosen": "peace, but keeps their??.",
+   "rejected": "thanks, not being lord",
+   "scores": [
+    1,
+    0
+   ]
+  },
+  {
+   "prompt": "i the",
+   "chosen": "??, his love so every",
+   "rejected": "?? maid and",
+   "scores": [
+    1,
+    0
+   ]
+  },
+  {
+   "prompt": "and curse",
+   "chosen": "fair for ransom, after life,",
+   "rejected": "",
+   "scores": [
+    1,
+    0
+   ]
+  },
+  {
+   "prompt": "nay,",
+   "chosen": "gentle juliet;",
+   "rejected": "and? awake thy father;",
+   "scores": [
+    1,
+    0
+   ]
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+
+=== data.py ===
+24015 lines, 218383 words, 12055 different
+the 3998 most common words cover 0.948 of the text
+['before', 'we', 'proceed', 'any', 'further', ',', 'hear', 'me', 'speak', '.'] [137, 40, 926, 134, 590, 2, 119, 22, 108, 3]
+
+=== judge.py ===
+happy [('love', 393), ('joy', 66), ('sweet', 154), ('fair', 167), ('happy', 64), ('merry', 34), ('gentle', 98), ('kind', 60), ('peace', 120), ('hope', 93), ('glad', 19), ('smile', 18), ('bless', 20), ('heaven', 141), ('delight', 8), ('friend', 78), ('dear', 96), ('laugh', 14)]
+sad [('death', 296), ('die', 127), ('dead', 132), ('grief', 64), ('woe', 47), ('blood', 175), ('hate', 59), ('kill', 48), ('tears', 82), ('sorrow', 64), ('curse', 33), ('weep', 42), ('fear', 136), ('grave', 63), ('murder', 25), ('poison', 24), ('sad', 33), ('cruel', 17)]
+real lines by score [(-5, 1), (-4, 2), (-3, 7), (-2, 72), (-1, 1194), (0, 21316), (1, 1309), (2, 105), (3, 7), (4, 2)]
+
+=== one_pair.py ===
+{
+ "one_pair": {
+  "prompt": "i am",
+  "chosen": "glad to see it so.",
+  "rejected": "one that go would.",
+  "scores": [
+   1,
+   0
+  ],
+  "start": {
+   "chosen": -10.317917823791504,
+   "rejected": -22.80874252319336
+  },
+  "after": {
+   "chosen": -14.998395919799805,
+   "rejected": -64.30345916748047
+  },
+  "up": -4.680478096008301,
+  "down": -41.49471664428711,
+  "gap": 36.81423854827881,
+  "loss_start": 0.6931471805599453,
+  "loss_after": 0.024875119385394603,
+  "chance_start": {
+   "chosen": 3.303583013673466e-05,
+   "rejected": 1.2424787879209444e-10
+  },
+  "chance_after": {
+   "chosen": 3.063934061223969e-07,
+   "rejected": 1.1840294818379856e-28
+  }
+ },
+ "beta_gap": {
+  "0.01": 225.216846104409,
+  "0.1": 22.5216846104409,
+  "0.5": 4.50433692208818,
+  "2.0": 1.126084230522045
+ }
+}
+
+=== tests.py ===
+ok    22,015 lines teach, 2,000 are kept apart, 4,000 words
+ok    77,768 pairs written, 10,593 kept (no tie)
+ok    happy lines: start 0.046, copy the winners 0.275, DPO 0.976
+ok    wins against the start model: copy 0.294, DPO 0.965
+ok    surprise on unseen Shakespeare: 190, 218, 1768
+ok    different words in 1,000 lines: start 1029, DPO 770
+ok    hidden judge agrees on 231 of 233 unseen pairs
+ok    one pair: gap 36.81, loss 0.6931 -> 0.0249
+ok    the exercise gives the same loss
+ok    zero gap gives log 2 for every beta
+ok    loss 0.1 needs beta x gap = 2.25: gap 225 for beta 0.01, 22.5 for 0.1
+ok    dpo.loss_of on the saved models: 0.0249
+ok    the start model against itself: 0.6931 = log 2
+
+13 of 13 checks ok
+
+=== exercise.py ===
+at the start (our model = the copy): loss 0.6931   log 2 = 0.6931
+after DPO: gap 36.81, loss 0.0249
+right

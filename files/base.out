@@ -1,0 +1,8 @@
+step     1  loss 8.32  test 8.25  7 s
+step   500  loss 4.55  test 4.70  481 s
+step  1000  loss 4.07  test 4.58  859 s
+step  1500  loss 3.69  test 4.65  1155 s
+step  2000  loss 3.13  test 4.89  1446 s
+step  2500  loss 2.57  test 5.17  1817 s
+step  3000  loss 2.50  test 5.25  2146 s
+1309440 numbers in the model

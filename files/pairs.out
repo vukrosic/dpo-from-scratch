@@ -1,0 +1,11 @@
+19442 train prompts, 1744 test prompts
+round 1: 19442 pairs written, 2684 kept
+round 2: 38884 pairs written, 5291 kept
+round 3: 58326 pairs written, 7999 kept
+round 4: 77768 pairs written, 10593 kept
+round 1: 1744 pairs written, 233 kept
+we are | met enough there could laugh. > created to be angry. [1, 0]
+very well | approved friend, > served up and?. [1, 0]
+content to | do truth, for i had myself. > die. [0, -1]
+our business | there is such a hope of heir, > with us, [1, 0]
+the helms | , and there's my friend, >  [1, 0]
