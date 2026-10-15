@@ -1,6 +1,6 @@
 # DPO from scratch
 
-Code for the video **How Do You Teach a Model From Picks? (DPO From Scratch)**.
+Code for the video **How ChatGPT Learns Which Answer You Prefer (DPO From Scratch)**.
 A judge picks the better of two lines. DPO (Direct Preference Optimization) teaches a model from those picks with one loss: raise the chance of the winner, lower the chance of the loser, both measured against a frozen copy of the start model. This code builds a small GPT on Shakespeare, lets a word-counting judge make 10,593 picks, teaches the model two ways (copy the winners, DPO), and measures what each one gained and what it cost.
 The method: Rafailov, Sharma, Mitchell, Ermon, Manning and Finn, "Direct Preference Optimization: Your Language Model is Secretly a Reward Model", 2023.
 
